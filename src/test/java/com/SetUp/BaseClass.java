@@ -26,7 +26,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseClass {
 	
 	public static  WebDriver driver;
-	public static String chromePath =  System.getProperty("user.dir")+"/chromedriver.exe";
+	//public static String chromePath =  System.getProperty("user.dir")+"/chromedriver.exe";
 	
 	@SuppressWarnings("deprecation")
 	public  static void waitForPageToLoad(int timeout)
