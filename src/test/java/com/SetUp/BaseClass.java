@@ -27,6 +27,7 @@ public class BaseClass {
 	
 	public static  WebDriver driver;
 	//public static String chromePath =  System.getProperty("user.dir")+"/chromedriver.exe";
+	//DOne by Pranshu
 	
 	@SuppressWarnings("deprecation")
 	public  static void waitForPageToLoad(int timeout)
